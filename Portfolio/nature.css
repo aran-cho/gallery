@@ -1,0 +1,349 @@
+body{
+    width: 1600px;
+    margin: auto;
+    padding: 10px;
+    background: rgb(232, 230, 230);    
+}
+header{
+    font-weight: bold;
+    margin: 0 20px;
+    width: 1500px;
+    padding: 20px;
+
+}
+.ficon{
+    position:relative;
+    float: left;
+}
+.naicon{
+    width: 30px;
+    height: 30px;
+    float: left;
+    padding-top: 15px;
+    padding-right: 5px;
+}
+.ficon h3{
+    float: right;
+}
+.list{
+    float: right;
+}
+ul{
+    list-style-type:none;
+
+}
+li{  
+    display: inline-block;
+    padding: 15px;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+section{
+    float: left;
+    margin: 0 20px 20px;
+    line-height: 25px;   
+    padding-left: 20px; 
+    width: 1550px;
+
+}
+h1{
+    font-size: 50px;
+}
+article{
+    float: left;
+    /* margin: 0 auto; */
+    padding-left: 35px;
+}
+.box1{
+    background: url(image/이미지1.jpg) no-repeat;
+    background-size: cover;
+    position: relative;
+}
+.box1, .box2, .box3, .box4, .box5, .box6, .box7, .box8, .box9, .box10, .box11, .box12{
+    width: 500px;
+    height: 300px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    float: left;
+    transform: perspective(1px) translateZ(0);
+    transition: 0.3s;
+    overflow: hidden;
+}
+.caption{
+    /* text-align: center;
+    height: 178px;
+    padding-top: 120px;
+    font-weight: bold;
+    font-size: larger;
+    border: solid 2px;
+    position: absolute;
+	overflow: hidden;
+    background: rgba(0, 0, 0, 0.6);
+    transition: all 300ms linear; */
+    width: 500px;
+	height: 300px;
+	position: absolute;
+    text-align: center;
+	/* left: 0; */
+	top: 300px;
+	background-color: rgba(0, 0, 0, 0);
+	transition: all 300ms linear;
+}
+.caption a{
+    color: rgba(0, 0, 0, 0);
+}
+.box1:hover, .box1:focus, .box2:hover, .box2:focus, .box3:hover, .box3:focus,  .box4:hover, .box4:focus,  .box5:hover, .box5:focus,  .box6:hover, .box6:focus,  .box7:hover, .box7:focus,  .box8:hover, .box8:focus,  .box9:hover, .box9:focus,  .box10:hover, .box10:focus,  .box11:hover, .box11:focus,  .box12:hover, .box12:focus{
+    transform: scale(1.1);
+}
+.box1:hover .caption{
+    background-color: rgba(0, 0, 0, 0.6);
+    top:0;
+
+}
+.box1:hover .caption a{
+    position: relative;
+    top: 40%;
+    color: white;
+    font-weight: bold;
+    font-size: larger;
+}
+.box2{
+    background: url(image/이미지2.jpg) no-repeat;
+    background-size: cover;
+}
+.box2:hover .caption{
+    background-color: rgba(0, 0, 0, 0.6);
+    top:0;
+
+}
+.box2:hover .caption a{
+    position: relative;
+    top: 40%;
+    color: white;
+    font-weight: bold;
+    font-size: larger;
+}
+.box3{
+
+    background: url(image/이미지3.jpg) no-repeat;
+    background-size: cover;
+}
+.box3:hover .caption{
+    background-color: rgba(0, 0, 0, 0.6);
+    top:0;
+
+}
+.box3:hover .caption a{
+    position: relative;
+    top: 40%;
+    color: white;
+    font-weight: bold;
+    font-size: larger;
+}
+.box4{
+
+    background: url(image/이미지4.jpg) no-repeat;
+    background-size: cover;
+}
+.box4:hover .caption{
+    background-color: rgba(0, 0, 0, 0.6);
+    top:0;
+
+}
+.box4:hover .caption a{
+    position: relative;
+    top: 40%;
+    color: white;
+    font-weight: bold;
+    font-size: larger;
+}
+.box5{
+
+    background: url(image/이미지5.png) no-repeat;
+    background-size: cover;
+}
+.box5:hover .caption{
+    background-color: rgba(0, 0, 0, 0.6);
+    top:0;
+
+}
+.box5:hover .caption a{
+    position: relative;
+    top: 40%;
+    color: white;
+    font-weight: bold;
+    font-size: larger;
+}
+.box6{
+    background: url(image/이미지6.jpg) no-repeat;
+    background-size: cover;
+}
+.box6:hover .caption{
+    background-color: rgba(0, 0, 0, 0.6);
+    top:0;
+}
+.box6:hover .caption a{
+    position: relative;
+    top: 40%;
+    color: white;
+    font-weight: bold;
+    font-size: larger;
+}
+.box7{
+    background: url(image/이미지7.jpg) no-repeat;
+    background-size: cover;
+}
+.box7:hover .caption{
+    background-color: rgba(0, 0, 0, 0.6);
+    top:0;
+}
+.box7:hover .caption a{
+    position: relative;
+    top: 40%;
+    color: white;
+    font-weight: bold;
+    font-size: larger;
+}
+.box8{
+
+    background: url(image/이미지8.jpg) no-repeat;
+    background-size: cover;
+}
+.box8:hover .caption{
+    background-color: rgba(0, 0, 0, 0.6);
+    top:0;
+
+}
+.box8:hover .caption a{
+    position: relative;
+    top: 40%;
+    color: white;
+    font-weight: bold;
+    font-size: larger;
+}
+.box9{
+
+    background: url(image/이미지9.jpg) no-repeat;background-size: cover;
+}
+.box9:hover .caption{
+    background-color: rgba(0, 0, 0, 0.6);
+    top:0;
+
+}
+.box9:hover .caption a{
+    position: relative;
+    top: 40%;
+    color: white;
+    font-weight: bold;
+    font-size: larger;
+}
+.box10{
+    background: url(image/이미지10.jpg) no-repeat;background-size: cover;
+}
+.box10:hover .caption{
+    background-color: rgba(0, 0, 0, 0.6);
+    top:0;
+
+}
+.box10:hover .caption a{
+    position: relative;
+    top: 40%;
+    color: white;
+    font-weight: bold;
+    font-size: larger;
+}
+.box11{
+    background: url(image/이미지11.jpg) no-repeat;background-size: cover;
+}
+.box11:hover .caption{
+    background-color: rgba(0, 0, 0, 0.6);
+    top:0;
+
+}
+.box11:hover .caption a{
+    position: relative;
+    top: 40%;
+    color: white;
+    font-weight: bold;
+    font-size: larger;
+}
+.box12{
+    background: url(image/이미지12.jpg) no-repeat;background-size: cover;
+}
+.box12:hover .caption{
+    background-color: rgba(0, 0, 0, 0.6);
+    top:0;
+
+}
+.box12:hover .caption a{
+    position: relative;
+    top: 40%;
+    color: white;
+    font-weight: bold;
+    font-size: larger;
+}
+footer{
+    position: relative;
+    clear: both;
+    color: black;
+}
+.contact{
+    position: absolute;
+    width: 1100px;
+    background:rgb(244, 244, 244);
+    padding: 30px;
+    height: 400px;
+}
+.name_email{
+    position: relative;;
+}
+.name, .email{
+    width: 500px;
+    border-bottom: solid 1px rgb(186, 185, 185);
+    padding-bottom: 10px;
+    padding-top: 20px;
+    margin-bottom: 40px;
+    color: gray;
+}
+.email{
+    position: absolute;
+    top: 75px;
+    left: 50%;
+}
+.message{
+    position: relative;
+    width: 1050px;
+    border-bottom: solid 1px rgb(186, 185, 185);
+    padding-bottom: 20px;
+    color: gray;
+    margin-bottom: 50px;
+}
+button{
+    background: rgb(14, 14, 35);
+    color: aliceblue;
+    padding: 15px 20px;
+    border-radius: 5px;
+    margin-bottom: 30px;
+}
+.follow{
+    position: absolute;
+    left: 1150px;
+    width: 400px;
+    background:rgb(244, 244, 244);
+    padding: 30px;
+    height: 400px;
+}
+.icons{
+    width: 350px;
+}
+.icon{
+    width: 20px;
+    height: 20px;
+    padding: 10px;
+    border-radius: 10px;
+    border: solid 1px gray;  
+    margin: 10px;
+    float: left;
+}
