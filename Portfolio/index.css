@@ -12,7 +12,6 @@ header{
 
 }
 .ficon{
-    position:relative;
     float: left;
 }
 .naicon{
@@ -26,8 +25,7 @@ header{
     float: right;
 }
 .list{
-    position: absolute;
-    right: 0;
+    float: right;
 }
 ul{
     list-style-type:none;
